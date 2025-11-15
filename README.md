@@ -17,6 +17,7 @@ Here are some pictures of myself, I used to do all the modelling myself.
 <img width="1351" height="638" alt="Myself_as_the_CEO" src="https://github.com/user-attachments/assets/42c17e0c-728e-433d-9c6b-86f40db6baab" />
 
 Validator Proofs:
+
 <img width="755" height="383" alt="proof3" src="https://github.com/user-attachments/assets/4b74989f-445b-4e7c-9cac-7942bb31ad49" />
 <img width="731" height="401" alt="proof2" src="https://github.com/user-attachments/assets/567bf113-9719-4209-bf6a-8794f0d49452" />
 <img width="729" height="248" alt="proof1" src="https://github.com/user-attachments/assets/b6ee3b70-9a4f-496a-afb6-a763114427d2" />
