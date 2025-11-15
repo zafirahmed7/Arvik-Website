@@ -12,6 +12,8 @@ my own company, but since we had to close the store down, I never made its websi
 similarity in the design. I created the entire instagram page and all its posts and reels when I was 17. <img width="1244" height="629" alt="Arvik" src="https://github.com/user-attachments/assets/1b8e0269-3483-4169-978c-6dadeaf34d3b" />
 Through my work as a professional, I knew the importance of adding a Call To Action (CTA) button on the homepage. I also added a fully functional form. 
 <img width="1350" height="638" alt="homepage" src="https://github.com/user-attachments/assets/79573f33-4f4b-4e49-b9b6-e858896de56e" />
+
+Here are some pictures of myself, I used to do all the modelling myself. 
 <img width="1351" height="638" alt="Myself_as_the_CEO" src="https://github.com/user-attachments/assets/42c17e0c-728e-433d-9c6b-86f40db6baab" />
 
 Validator Proofs:
