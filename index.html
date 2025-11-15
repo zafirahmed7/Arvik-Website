@@ -40,7 +40,7 @@
 
             <div class="product-item">
                 <h3>Cuban Bracelet</h3>
-                <div class="product-image"><img src="Images/Steel_Bracelet.jpg""></div>
+                <div class="product-image"><img src="Images/Steel_Bracelet.jpg" alt=""></div>
                 <p>Bold stainless steel links</p>
             </div>
 
@@ -86,7 +86,7 @@
         <div class="product-grid">
             <div class="product-item">
                 <h3>Chain Necklace</h3>
-                <div class="product-image"><img src="Images/Pendant_Necklace.jpg " alt=""></div>
+                <div class="product-image"><img src="Images/Pendant_Necklace.jpg" alt=""></div>
                 <p>Premium metal chains</p>
             </div>
 
@@ -110,29 +110,60 @@
         <p>Have questions? We'd love to hear from you.</p>
 
         <div class="contact-container">
-            <!-- LEFT COLUMN -->
-            <div class="contact-left">
-                <div class="logo-circle"><img src="Images/Arvik_Logo.png" alt="ARVIK"></div>
+
+            <!-- Join Form -->
+            <div class="join-form-container">
+                <form class="join-form">
+                    <h3 class="form-title">Join Us</h3>
+
+                    <!-- NAME + EMAIL -->
+                    <label>Full Name</label>
+                    <input type="text" name="name" required placeholder="Enter your full name">
+
+                    <label>Email Address</label>
+                    <input type="email" name="email" required placeholder="Enter your email">
+
+                    <!-- CHECKBOXES -->
+                    <label>What are you interested in?</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="interest" value="bracelets"> Bracelets</label>
+                        <label><input type="checkbox" name="interest" value="rings"> Rings</label>
+                        <label><input type="checkbox" name="interest" value="necklaces"> Necklaces</label>
+                    </div>
+
+                    <!-- RADIO BUTTONS -->
+                    <label>Select your role</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="role" value="customer" required> Customer</label>
+                        <label><input type="radio" name="role" value="reseller"> Reseller</label>
+                    </div>
+
+                    <!-- DROPDOWN -->
+                    <label>How did you hear about us?</label>
+                    <select name="source" required>
+                        <option value="">Select an option</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="tiktok">TikTok</option>
+                        <option value="friend">A Friend</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <!-- TEXTAREA -->
+                    <label>Your Message</label>
+                    <textarea name="message" rows="4" placeholder="Tell us more..."></textarea>
+
+                    <!-- SUBMIT -->
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
             </div>
 
-            <!-- CENTER COLUMN -->
-            <div class="contact-center">
+            <!-- Contact Info Box -->
+            <div class="contact-info-box">
                 <p><strong>Email:</strong> <a href="mailto:info@arvik.com">info@arvik.com</a></p>
                 <p><strong>Phone:</strong> <a href="tel:+923104059897">+92 310 4059897</a></p>
                 <p><strong>Address:</strong> FAST NUCES Lahore</p>
             </div>
 
-            <!-- RIGHT COLUMN -->
-            <div class="contact-right">
-                <div class="social-item">
-                    <div class="logo-circle-small"><img src="Images/Instagram_Logo.webp"></div>
-                    <span>@arvik.official</span>
-                </div>
-                <div class="social-item">
-                    <div class="logo-circle-small"><img src="Images/WhatsApp_Logo.png"></div>
-                    <span>+92 310 4059897</span>
-                </div>
-            </div>
         </div>
     </section>
 </body>
