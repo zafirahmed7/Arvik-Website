@@ -279,13 +279,36 @@ section p {
 }
 
 /* Responsive */
+/* Keep navbar horizontal on mobile, but scale it */
 @media (max-width: 768px) {
-    #hero h1 { font-size: 4rem; letter-spacing: 8px; }
-    nav ul { gap: 1.5rem; }
-    nav ul li a { font-size: 0.9rem; }
-    section h2 { font-size: 2rem; }
-    .join-form { padding: 2rem; }
-    .join-form .form-title { font-size: 1.6rem; }
+    nav {
+        padding: 0.5rem 1rem; /* smaller padding */
+        width: 90%; /* optional: shrink width to fit screen */
+    }
+
+    nav ul {
+        flex-wrap: wrap; /* allows items to wrap if absolutely necessary */
+        justify-content: center;
+        gap: 0.8rem; /* reduce spacing between links */
+    }
+
+    nav ul li a {
+        font-size: 0.8rem; /* smaller text */
+        padding: 0.3rem 0.8rem; /* smaller clickable area */
+        white-space: nowrap; /* ensure single-line links */
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    nav ul li a {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.6rem;
+    }
+
+    nav {
+        padding: 0.4rem 0.8rem;
+    }
 }
 
 /* Hero Section Update */
