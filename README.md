@@ -4,7 +4,8 @@ During my time there I worked on managing many projects (mainly websites). My wo
 
 Seed:
 Using my experience from managing projects and being in close collaboration with devs, I already had a know-how on how the design aspect should work.
-In my initial code, I took the boiler-plate code that is usually similar for all e-commerce websites, that includes a navigation bar, appropriate sections, and a footer.
+In my initial code, I took the boiler-plate code that is usually similar for all e-commerce websites, that includes a navigation bar, appropriate sections, product catalgue/display
+, a form, and a footer. Other important e-commerce functionality was left out of this project as JS and other frameworks were out of scope.
 
 Design Rotational:
 The design inspiration came from my own brand's theme. I started an e-commerce store in 2022 named Arvik, a men's accessory store. I have always wanted to build a website for 
